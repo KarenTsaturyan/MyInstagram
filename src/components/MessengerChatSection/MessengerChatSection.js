@@ -12,7 +12,7 @@ function MessengerChatSection() {
 	 <div className='Messenger-right-col'>
 		<div className='UserSction'>
 			<p>{usersData.find(user =>user.id === activeUserId)?.username}</p>
-			<p>i</p>
+			<p>{usersData.find(user =>user.id === activeUserId)?.id}</p>
 		</div>
 		<div className='Chat'>
 			<MessengerChat />

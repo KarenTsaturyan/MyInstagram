@@ -48,3 +48,11 @@
 }
 
 
+@media screen and (max-width: 40rem) {
+	.Primary-General{
+		font-size: 12px;
+	}
+	.Messenger-left-col-direct{
+	font-size: 12px;
+	}
+}

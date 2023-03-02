@@ -32,12 +32,10 @@ function Messenger() {
 			<div className='Messenger-left-col'>
 				<div className='Messenger-left-col-direct'>
 					<p>Direct</p>
-					<i className="fa-duotone fa-pen-to-square"></i>
 				</div>
 				<div className='Messenger-left-col-peoples'>
 					<div className='Primary-General'>
-						<p>Primary</p>
-						<p>General</p>
+						<p>Messages</p>
 					</div>
 					<MessengerPeoplesMessages />
 				</div>

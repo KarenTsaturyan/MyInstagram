@@ -22,3 +22,18 @@
 	height: 25px;
 	cursor: pointer;
 }
+@media screen and (max-width: 40rem) {
+	.Chat-input button span {
+		display: none;
+	}
+	.Chat-input button::after{
+		content: "✓";
+		width: 30%;
+		border: none;
+	}
+	.Chat-input img{
+		width: 15px;
+		height: 15px;
+		cursor: pointer;
+	}
+}

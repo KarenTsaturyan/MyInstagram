@@ -29,10 +29,10 @@ function MessengerChatForm() {
 		<form ref={chatRef} onSubmit={handleSubmit} className='Chat-input'>
 		<input type='text' placeholder='Message...'/>
 		<img src={IMAGES.like} alt=''/>
-		<button type="submit">Send</button>
+		<button type="submit"><span>Send</span></button>
 		</form>
 		:
-		<h1 style={{color:'red'}}>Choose your dialog</h1>
+		<h2 style={{color:'red'}}>Choose your dialog</h2>
 		}
 	</>
   )
